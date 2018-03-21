@@ -1,10 +1,10 @@
 #include<stdio.h>
 void swap(int i,int j)
 {
-	int k;
-	k=i;
+	int p;
+	p=i;
 	i=j;
-	j=k;
+	j=p;
 	printf("the swapped numnber is:%d %d",i,j);
 }
 
