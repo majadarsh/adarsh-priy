@@ -1,0 +1,132 @@
+@font-face{font-family:'Artifakt';font-style:normal;font-weight:300;src:url("https://fonts.autodesk.com/ArtifaktElement/EOT/Artifakt%20Element%20Light.eot");src:url("https://fonts.autodesk.com/ArtifaktElement/EOT/Artifakt%20Element%20Light.eot?#iefix") format("embedded-opentype"),url("https://fonts.autodesk.com/ArtifaktElement/WOFF2/Artifakt%20Element%20Light.woff2") format("woff2"),url("https://fonts.autodesk.com/ArtifaktElement/WOFF/Artifakt%20Element%20Light.woff") format("woff"),url("https://fonts.autodesk.com/ArtifaktElement/TTF/Artifakt%20Element%20Light.ttf") format("truetype")}
+@font-face{font-family:'Artifakt';font-style:normal;font-weight:400;src:url("https://fonts.autodesk.com/ArtifaktElement/EOT/Artifakt%20Element%20Regular.eot");src:url("https://fonts.autodesk.com/ArtifaktElement/EOT/Artifakt%20Element%20Regular.eot?#iefix") format("embedded-opentype"),url("https://fonts.autodesk.com/ArtifaktElement/WOFF2/Artifakt%20Element%20Regular.woff2") format("woff2"),url("https://fonts.autodesk.com/ArtifaktElement/WOFF/Artifakt%20Element%20Regular.woff") format("woff"),url("https://fonts.autodesk.com/ArtifaktElement/TTF/Artifakt%20Element%20Regular.ttf") format("truetype")}
+@font-face{font-family:'Artifakt';font-style:normal;font-weight:700;src:url("https://fonts.autodesk.com/ArtifaktElement/EOT/Artifakt%20Element%20Medium.eot");src:url("https://fonts.autodesk.com/ArtifaktElement/EOT/Artifakt%20Element%20Medium.eot?#iefix") format("embedded-opentype"),url("https://fonts.autodesk.com/ArtifaktElement/WOFF2/Artifakt%20Element%20Medium.woff2") format("woff2"),url("https://fonts.autodesk.com/ArtifaktElement/WOFF/Artifakt%20Element%20Medium.woff") format("woff"),url("https://fonts.autodesk.com/ArtifaktElement/TTF/Artifakt%20Element%20Medium.ttf") format("truetype")}
+@font-face{font-family:'Artifakt Legend';font-weight:300;src:url("https://fonts.autodesk.com/ArtifaktLegend/EOT/Artifakt%20Legend%20Light.eot");src:url("https://fonts.autodesk.com/ArtifaktLegend/EOT/Artifakt%20Legend%20Light.eot?#iefix") format("embedded-opentype"),url("https://fonts.autodesk.com/ArtifaktLegend/WOFF2/Artifakt%20Legend%20Light.woff2") format("woff2"),url("https://fonts.autodesk.com/ArtifaktLegend/WOFF/Artifakt%20Legend%20Light.woff") format("woff"),url("https://fonts.autodesk.com/ArtifaktLegend/TTF/Artifakt%20Legend%20Light.ttf") format("truetype")}
+@font-face{font-family:'Artifakt Legend';font-weight:400;src:url("https://fonts.autodesk.com/ArtifaktLegend/EOT/Artifakt%20Legend%20Regular.eot");src:url("https://fonts.autodesk.com/ArtifaktLegend/EOT/Artifakt%20Legend%20Regular.eot?#iefix") format("embedded-opentype"),url("https://fonts.autodesk.com/ArtifaktLegend/WOFF2/Artifakt%20Legend%20Regular.woff2") format("woff2"),url("https://fonts.autodesk.com/ArtifaktLegend/WOFF/Artifakt%20Legend%20Regular.woff") format("woff"),url("https://fonts.autodesk.com/ArtifaktLegend/TTF/Artifakt%20Legend%20Regular.ttf") format("truetype")}
+@font-face{font-family:'Artifakt Legend';font-weight:700;src:url("https://fonts.autodesk.com/ArtifaktLegend/EOT/Artifakt%20Legend%20Medium.eot");src:url("https://fonts.autodesk.com/ArtifaktLegend/EOT/Artifakt%20Legend%20Medium.eot?#iefix") format("embedded-opentype"),url("https://fonts.autodesk.com/ArtifaktLegend/WOFF2/Artifakt%20Legend%20Medium.woff2") format("woff2"),url("https://fonts.autodesk.com/ArtifaktLegend/WOFF/Artifakt%20Legend%20Medium.woff") format("woff"),url("https://fonts.autodesk.com/ArtifaktLegend/TTF/Artifakt%20Legend%20Medium.ttf") format("truetype")}
+
+
+
+.main{
+		position: relative;
+		background-color: white;
+		height: 350px;
+		width: 98%;
+		bottom: 0;
+		padding: 10px;
+		/*background-color: #dadada;*/
+	}
+
+.one{
+		position: absolute;
+		background-color: white;
+		height: 50%;
+		width: 15%; 
+		/*border-right: 1px solid grey;*/
+		line-height: 1.4;
+
+	}
+.two{
+		position: absolute;
+		background-color: white;
+		margin-top: 18%;
+		height: 50%;
+		width: 15%;
+		border-top: 1px solid grey;
+		line-height: 1.4;
+	}
+
+.three{
+		position: absolute;
+		background-color: white;
+		height: 100%;
+		width: 17%;
+		margin-left:17%;
+		border-left: 1px solid grey;
+		/*line-height: 1.5;*/
+	}
+
+.four{
+		position: absolute;
+		background-color: white;
+		height: 100%;
+		width: 17%;
+		margin-left:34%;
+		border-left: 1px solid grey;
+		/*line-height: 1.5;*/
+	}
+
+.five{
+		position: absolute;
+		background-color: white;
+		height: 100%;
+		width: 17%;
+		margin-left:51%;
+		border-left: 1px solid grey;
+		/*line-height: 1.5;*/
+	}
+
+.six{
+		position: absolute;
+		background-color: white;
+		height: 100%;
+		width: 32%;
+		margin-left:68%;
+		border-left: 1px solid grey;
+		/*line-height: 1.5;*/
+	}
+
+.anchor{
+		text-decoration: none;
+		color: #696969;
+		font-family: artifakt,arial;
+		font-style: normal;
+		font-size: 14px;
+		
+	}
+.anchor:hover{
+		text-decoration:underline;
+		color:black;
+	}
+#font{
+		text-decoration:none; 
+		color: #696969; 
+		font-family: artifakt,arial;
+		font-size: 16px;
+		padding-bottom: 15px;
+		padding-left: 15px;
+		margin: 0px;
+		font-weight: bold;
+	}
+
+li{
+	list-style-type:none;
+	padding-left: 15px;
+	padding-bottom: 5px;
+	line-height: 1.6;
+}
+.icon{
+	text-decoration: none;
+	color: #696969;
+	font-family: artifakt,arial;
+	font-style: normal;
+}
+#text{
+	text-decoration:none; 
+		color: #696969; 
+		font-family: artifakt,arial;
+		font-size: 14px;
+		padding:0px 15px;
+		font-style: italic;
+}
+
+
+
+@media only screen and (max-width: 1000px){
+	.one{
+		position: absolute;
+		height: 1000px;
+		width:1000px;
+		display: none;
+	}
+}
