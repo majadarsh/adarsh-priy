@@ -1,0 +1,303 @@
+@font-face{font-family:'Artifakt';font-style:normal;font-weight:300;src:url("https://fonts.autodesk.com/ArtifaktElement/EOT/Artifakt%20Element%20Light.eot");src:url("https://fonts.autodesk.com/ArtifaktElement/EOT/Artifakt%20Element%20Light.eot?#iefix") format("embedded-opentype"),url("https://fonts.autodesk.com/ArtifaktElement/WOFF2/Artifakt%20Element%20Light.woff2") format("woff2"),url("https://fonts.autodesk.com/ArtifaktElement/WOFF/Artifakt%20Element%20Light.woff") format("woff"),url("https://fonts.autodesk.com/ArtifaktElement/TTF/Artifakt%20Element%20Light.ttf") format("truetype")}
+@font-face{font-family:'Artifakt';font-style:normal;font-weight:400;src:url("https://fonts.autodesk.com/ArtifaktElement/EOT/Artifakt%20Element%20Regular.eot");src:url("https://fonts.autodesk.com/ArtifaktElement/EOT/Artifakt%20Element%20Regular.eot?#iefix") format("embedded-opentype"),url("https://fonts.autodesk.com/ArtifaktElement/WOFF2/Artifakt%20Element%20Regular.woff2") format("woff2"),url("https://fonts.autodesk.com/ArtifaktElement/WOFF/Artifakt%20Element%20Regular.woff") format("woff"),url("https://fonts.autodesk.com/ArtifaktElement/TTF/Artifakt%20Element%20Regular.ttf") format("truetype")}
+@font-face{font-family:'Artifakt';font-style:normal;font-weight:700;src:url("https://fonts.autodesk.com/ArtifaktElement/EOT/Artifakt%20Element%20Medium.eot");src:url("https://fonts.autodesk.com/ArtifaktElement/EOT/Artifakt%20Element%20Medium.eot?#iefix") format("embedded-opentype"),url("https://fonts.autodesk.com/ArtifaktElement/WOFF2/Artifakt%20Element%20Medium.woff2") format("woff2"),url("https://fonts.autodesk.com/ArtifaktElement/WOFF/Artifakt%20Element%20Medium.woff") format("woff"),url("https://fonts.autodesk.com/ArtifaktElement/TTF/Artifakt%20Element%20Medium.ttf") format("truetype")}
+@font-face{font-family:'Artifakt Legend';font-weight:300;src:url("https://fonts.autodesk.com/ArtifaktLegend/EOT/Artifakt%20Legend%20Light.eot");src:url("https://fonts.autodesk.com/ArtifaktLegend/EOT/Artifakt%20Legend%20Light.eot?#iefix") format("embedded-opentype"),url("https://fonts.autodesk.com/ArtifaktLegend/WOFF2/Artifakt%20Legend%20Light.woff2") format("woff2"),url("https://fonts.autodesk.com/ArtifaktLegend/WOFF/Artifakt%20Legend%20Light.woff") format("woff"),url("https://fonts.autodesk.com/ArtifaktLegend/TTF/Artifakt%20Legend%20Light.ttf") format("truetype")}
+@font-face{font-family:'Artifakt Legend';font-weight:400;src:url("https://fonts.autodesk.com/ArtifaktLegend/EOT/Artifakt%20Legend%20Regular.eot");src:url("https://fonts.autodesk.com/ArtifaktLegend/EOT/Artifakt%20Legend%20Regular.eot?#iefix") format("embedded-opentype"),url("https://fonts.autodesk.com/ArtifaktLegend/WOFF2/Artifakt%20Legend%20Regular.woff2") format("woff2"),url("https://fonts.autodesk.com/ArtifaktLegend/WOFF/Artifakt%20Legend%20Regular.woff") format("woff"),url("https://fonts.autodesk.com/ArtifaktLegend/TTF/Artifakt%20Legend%20Regular.ttf") format("truetype")}
+@font-face{font-family:'Artifakt Legend';font-weight:700;src:url("https://fonts.autodesk.com/ArtifaktLegend/EOT/Artifakt%20Legend%20Medium.eot");src:url("https://fonts.autodesk.com/ArtifaktLegend/EOT/Artifakt%20Legend%20Medium.eot?#iefix") format("embedded-opentype"),url("https://fonts.autodesk.com/ArtifaktLegend/WOFF2/Artifakt%20Legend%20Medium.woff2") format("woff2"),url("https://fonts.autodesk.com/ArtifaktLegend/WOFF/Artifakt%20Legend%20Medium.woff") format("woff"),url("https://fonts.autodesk.com/ArtifaktLegend/TTF/Artifakt%20Legend%20Medium.ttf") format("truetype")}
+
+
+
+.main{
+		position: relative;
+		background-color: white;
+		height: 400px;
+		width: 98%;
+		bottom: 0;
+		padding: 10px;
+		/*background-color: #dadada;*/
+	}
+.onemain{
+		
+		background-color: white;
+		height: 100%;
+		position: relative;
+		width: 17%;
+		float: left;
+	}
+/*.one ul  i
+{
+	float: left;
+}
+.one ul li a
+{
+	float: left;
+}
+.one ul
+{
+	margin-left:-35px;
+}*/
+.one{
+		background-color: white;
+		height: 50%;
+		width: 100%; 
+	}
+.two{
+
+		height: 50%;
+		width: 87%;
+		margin-left: 10px;
+		border-top: 1px solid #dadada;
+	}
+
+.three{
+		float: left;
+		position: relative;
+		background-color: white;
+		height: 100%;
+		width: 17%;
+		border-left: 1px solid #dadada;
+		/*line-height: 1.5;*/
+	}
+
+.four{
+	position: relative;
+		background-color: white;
+		float: left;
+		height: 100%;
+		width: 17%;
+		border-left: 1px solid #dadada;
+		/*line-height: 1.5;*/
+	}
+
+.five{
+	float: left;
+		position: relative;
+		background-color: white;
+		height: 100%;
+		width: 17%;
+		border-left: 1px solid #dadada;
+		/*line-height: 1.5;*/
+	}
+
+.six{
+	float: right;
+	    position: relative;
+		background-color: white;
+		height: 100%;
+		width: 30%;
+		border-left: 1px solid #dadada;
+		/*line-height: 1.5;*/
+	}
+
+.anchor{
+		text-decoration: none;
+		color: #696969;
+		font-family: artifakt,arial;
+		font-style: normal;
+		font-size: 14px;
+		
+	}
+.anchor:hover{
+		text-decoration:underline;
+		color:black;
+	}
+#font{
+		text-decoration:none; 
+		color: #696969; 
+		font-family: artifakt,arial;
+		font-size: 16px;
+		padding-bottom: 5px;
+		padding-left: 15px;
+		margin: 0px;
+		font-weight: bold;
+	}
+
+li{
+	list-style-type:none;
+	padding-left: 15px;
+	padding-bottom: 5px;
+	line-height: 1.5;
+}
+.icon{
+	text-decoration: none;
+	color: #696969;
+	font-family: artifakt,arial;
+	font-style: normal;
+	margin-left: -40px;
+}
+.icon2
+{
+	text-decoration: none;
+	color: #696969;
+	font-family: artifakt,arial;
+	font-style: normal;
+	margin-left: -10px;
+}
+#text{
+	text-decoration:none; 
+		color: #696969; 
+		font-family: artifakt,arial;
+		font-size: 14px;
+		padding:0px 15px;
+		font-style: italic;
+}
+
+
+
+@media screen and (max-width: 1024px){
+	.one li{
+		
+		position: relative;
+		float: left;
+		margin-left: 20px;
+		margin-top: -11px;
+	}
+	.one h3
+	{
+		position: relative;
+		left: 20px;
+	}
+	.one
+	{
+		position: relative;
+		left:-20px;
+
+	}
+	.onemain
+	{
+		
+		width: 100%;
+		height:140px;
+		top:-10px;	
+
+	}
+	.two
+	{
+		bottom: 10px;
+		position: absolute;
+		left: 0;
+		height: 20%;
+		width: 99%;
+        padding-bottom: 25px;
+        border-bottom: 1px solid #dadada;
+	} 
+    .one 
+    {
+    	width:1000px;
+    	height: auto;
+    }
+	.one
+	{
+		clear: both;
+	}
+	.three
+	{
+		clear: both;
+		border-left: none;
+		width: 22%;	
+		height: all;	
+	}
+	.four
+	{
+		width: 22%;
+		height: all;
+	}
+	.five
+	{
+		width: 22%;
+		height: all;
+	}
+	.six
+	{
+		width: 32%;
+		height: all;
+	}
+
+}
+
+
+@media screen and (max-width: 640px)
+{
+	.onemain
+	{
+		position: absolute;
+		margin-left: -15px;
+		width: 100%;
+		height: 70%;
+	}
+	.one
+	{
+		position: absolute;
+		width: 100%;
+		height: 60%;
+		margin-left: 5px;
+		margin-top: 10px;
+	}
+	.one li
+	{
+		float: none;
+		padding-bottom: 12px;
+	}
+	.two
+	{
+		margin-top: 10px;
+		position: absolute;
+		left: 0;
+		height: 10%;
+		width: 99%;
+        bottom: 50px;
+        border-top: 1px solid #dadada;
+
+	} 
+	
+	.three
+	{
+		width: 100%;
+		border-left: none;
+		margin-left: -15px;
+		height: 30%;
+		bottom:50px;
+		position: absolute;
+
+	}
+	.four
+	{
+		width: 100%;
+		border-left: none;
+		margin-left: -15px;
+		height: 30%;
+		bottom: 30px;
+		position: absolute;
+	}
+	.five
+	{
+		width: 100%;
+		border-left: none;
+		margin-left: -15px;
+		height: 30%;
+		bottom:10px;
+		position: absolute;
+	}
+	.six
+	{
+		width: 100%;
+		border-left: none;
+		margin-left: -15px;
+		height: 30%;
+		position: absolute;
+		bottom:-10px;
+	}
+    .three a,.four a,.five a,.six a
+    {
+
+    }
+	.three li,.four li,.five li,.six li
+	{
+		display: none;
+	}
+	
+	#text
+	{
+		display: none;
+	}
+}
